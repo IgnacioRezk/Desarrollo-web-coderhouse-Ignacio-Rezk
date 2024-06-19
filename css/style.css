@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+  font-weight: 900;
+}
+
+.navbar {
+  color: #2e0063;
+}
+
+
+
+.bg-body-secondary {
+  color: #2e0063;
+}
+
+.hero {
+  background-image: url(../img/instalaciones-electricas-en-edificios-e1686645908991-1024x535.jpg);
+  background-size: cover;
+  height: 40vw;
+  width: 100vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+.menu li {
+  display: inline;
+  margin-right: 10px;
+  font-family: "roboto";
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.menufooter li {
+  display: inline;
+  margin-right: 10px;
+  font-family: "roboto";
+  margin-bottom: 0px;
+  text-decoration: none;
+
+}
+
+.menu li a {
+  color: #2e0063;
+}
+
+main {
+
+  font-family: "roboto";
+  padding-left: 0;
+  padding-right: 0;
+}
+
+footer {
+  background-color: gray;
+  border-top: 4px solid #2e0063;
+
+}
