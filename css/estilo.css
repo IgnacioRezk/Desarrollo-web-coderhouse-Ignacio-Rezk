@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+  font-weight: 900;
+}
+html, body {
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  border-top: 4px solid #2e0063;
+}
+.footer .menufooter li {
+  display: inline;
+  margin-right: 10px;
+  font-family: "roboto";
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+.footer .menufooter a {
+  color: rgb(0, 0, 0);
+}
+.footer .text-center p {
+  color: rgb(0, 0, 0);
+}
+.footer .iconos {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.bg-body-secondary {
+  color: #2e0063;
+}
+
+.main {
+  font-family: "roboto";
+  padding-left: 0x;
+  padding-right: 0;
+}
+
+.fondo {
+  background-image: url(../../img/instalaciones-electricas-en-edificios-e1686645908991-1024x535.jpg);
+  background-size: cover;
+  height: 40vw;
+  width: 100vw;
+  opacity: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 10px;
+  font-family: "roboto";
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.h1-pasos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.body {
+  background: rgb(204, 193, 216);
+}
+
+*::-moz-selection {
+  background-color: #2e0063;
+  color: white;
+}
+
+*::selection {
+  background-color: #2e0063;
+  color: white;
+}
+
+.roll-in-right {
+  animation: roll-in-right 0.6s ease-out both;
+}
+@keyframes roll-in-right {
+  0% {
+    transform: translateX(800px) rotate(540deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+.heartbeat {
+  animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.card {
+  transition: all 1s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=estilo.css.map */

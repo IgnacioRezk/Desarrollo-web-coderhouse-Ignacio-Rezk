@@ -1,0 +1,108 @@
+html, body {
+    width: 100%!important;
+    overflow-x: hidden!important;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    border-top: 4px solid #2e0063;
+    
+    .menufooter li {
+        display: inline;
+        margin-right: 10px;
+        font-family: "roboto";
+        margin-bottom: 0px;
+        text-decoration: none;
+    }
+
+
+    .menufooter a {
+        
+        color: rgb(0, 0, 0);
+
+    }
+
+    .text-center p {
+        color: rgb(0, 0, 0);
+    }
+
+    .iconos {
+        margin-left: 5px;
+        margin-right:5px;
+        margin-bottom: 10px;
+    }
+
+
+  
+}
+
+
+.bg-body-secondary {
+    color: #2e0063;
+}
+
+
+.main {
+  
+    font-family:"roboto";
+    padding-left: 0x;
+    padding-right: 0;
+
+
+    
+}
+
+
+
+.fondo {
+    background-image: url(../../img/instalaciones-electricas-en-edificios-e1686645908991-1024x535.jpg);
+    background-size: cover;
+    height: 40vw;
+    width: 100vw;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+
+
+}
+
+.menu li {
+    display: inline;
+    margin-right: 10px;
+    font-family: "roboto";
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.h1-pasos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+
+   
+}
