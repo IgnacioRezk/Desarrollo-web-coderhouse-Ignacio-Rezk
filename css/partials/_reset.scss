@@ -68,7 +68,7 @@ html, body {
 
 
 
-.fondo {
+.imagen-fondo {
     background-image: url(../../img/instalaciones-electricas-en-edificios-e1686645908991-1024x535.jpg);
     height: 80vh;
     background-repeat: no-repeat;
@@ -77,6 +77,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+     
    
 
 
@@ -118,3 +119,30 @@ html, body {
 
 }
 
+.imagen-iso {
+    width: 50%;
+    
+    
+}
+
+.imagen-fachada {
+    justify-content: right;
+    width: 50%;
+    
+
+    
+}
+
+
+.container-iso {
+    align-items: left;
+    
+}
+
+.pepito{
+    display: flex !important;
+}
+
+.pedrito {
+    width: 50% !important;
+}
