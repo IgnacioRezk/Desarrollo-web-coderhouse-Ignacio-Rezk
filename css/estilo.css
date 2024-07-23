@@ -19,6 +19,17 @@ html, body {
   box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+  .img-sobrenosotros {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-cert {
+    margin-top: 20px;
+    justify-content: center;
+  }
+}
 .footer {
   position: relative;
   bottom: 0;
@@ -99,22 +110,26 @@ html, body {
 
 .imagen-iso {
   width: 50%;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 .imagen-fachada {
   justify-content: right;
   width: 50%;
+  margin-left: 50px;
 }
 
 .container-iso {
   align-items: left;
 }
 
-.pepito {
+.img-sobrenosotros {
   display: flex !important;
 }
 
-.pedrito {
+.img-cert {
   width: 50% !important;
 }
 
